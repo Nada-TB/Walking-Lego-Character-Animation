@@ -1,0 +1,166 @@
+body{
+    width: 100vw;
+    height:100vh;
+    margin:-10px;
+    position: fixed;
+    background-color:#00ffff;
+  }
+  h1{
+    left:40%;
+    text-shadow: 5px 5px 4px #ff99ff;
+    top:300px;
+    position : absolute;
+    z-index:-12;
+    color:white;
+    visibility:hidden;
+    transition: visibility 2s;
+  }
+  #body{
+    margin-top: 150px;
+    transform:rotateY(180deg) ;
+    position: relative;
+  }
+  
+  #torse{
+    width:100px;
+    height:150px;
+    background-color:green;
+    border-radius:40%;
+    position: absolute;
+    transform:skew(0deg, 10deg);
+    z-index:-1;
+  }
+  
+  #head{
+    position:absolute;
+    width:90px;
+    height:90px;
+    background-color: pink;
+    border-radius:70%;
+    top:-85px;
+    left:2px;
+  }
+  
+  #head:after{
+    content:" ";
+    border-color: brown transparent transparent       transparent;
+    border-width:15px;
+    border-style:solid;
+    position: absolute;
+    right:-28px;
+    top:30px;
+    transform:rotate(-90deg);
+  
+  }
+  
+  #eye{
+    width:16px;
+    height:16px;
+    background-color:blue;
+    position: absolute;
+    right:18px;
+    top: 20px;
+    border-radius: 50% 0 0 0;
+    transform: rotate(130deg);
+  }
+  
+  #eye:after{
+    content:"";
+    position: absolute;
+    background-color:black;
+    width:10px;
+    height:10px;
+    border-radius:50%;
+  }
+  
+  #arm1, #arm2{
+    width:30px;
+    height: 110px;
+    background-color:black;
+    box-shadow:2px 2px  3px grey;
+    border-radius:20px;
+    position:absolute;
+    top: 20px;
+    left:-10px;
+    transform: rotate(30deg); 
+    z-index:-3;
+  }
+  
+  #arm2{
+    left:40px;
+    transform: rotate(-35deg); 
+    z-index:2;
+  }
+  
+  #leg1, #leg2{
+    width: 40px;
+    height: 150px;
+    background-color:yellow;
+    box-shadow: 2px 2px 3px grey;
+    position: absolute;
+    top:120px;
+    left: 55px;
+    border-radius: 20px 20px 0 0;
+    transform: rotate(-20deg);
+  }
+  
+  #leg2{
+     transform: rotate(25deg);
+    left: 0px;
+    z-index:-5;
+  }
+  
+  #shoe1, #shoe2{
+    width: 30px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+    bottom:-15px;
+    right:-5px;
+    transform:rotate(90deg);
+    border-radius: 20px 0 0 0;
+  }
+  
+  #hat{
+    width:50px;
+    height:70px;
+    background-color:red;
+    position:absolute;
+    border-radius:50% 0 0 50%;
+    transform:rotate(75deg);
+    top:-40px;
+    left:5px;
+  }
+  
+  #hat:after{
+    content:" ";
+    width:50px;
+    height:8px;
+    background-color:red;
+    position: absolute;
+    transform:rotate(92deg);
+    top:-8px;
+    left:22px;
+    border-radius:20px;
+  }
+
+  footer{
+      margin-top:35%;
+  }
+  footer p{
+      text-align:center;
+  }
+  
+  @media screen and (max-width: 600px){
+    #body{
+      transform: rotateY(180deg) scale(0.5);
+    }
+    h1{
+      font-size:1.5em;
+      left:30%;
+      top:150px;
+    }
+    footer{
+        margin-top:70%;
+    }
+  }
