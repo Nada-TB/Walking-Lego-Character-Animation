@@ -38,7 +38,7 @@ function moving(){
 function moveRight() {
     start++;
     body.style.right= start + "px";
-    if(start===screen.width+10){
+    if(start===screen.width+50){
         document.querySelector('h1').style.visibility="visible";   
         clearInterval(walk); 
         clearInterval(memberMove);
