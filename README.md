@@ -61,7 +61,7 @@ To run the project locally, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/Nada-TB-beginner-projects/Walking-Lego-Character-Animation.git
+   git clone https://github.com/Walking-Lego-Character-Animation.git
    ```
 
 2. **Navigate to the Project Directory:**
