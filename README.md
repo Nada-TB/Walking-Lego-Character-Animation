@@ -21,7 +21,7 @@ An animated Lego character walking forward for a while before disappearing and l
 
 ### Live Demo
 
-Check out the live demo [here](https://nada-tb-beginner-projects.github.io/Walking-Lego-Character-Animation/).
+Check out the live demo [here](https://nada-tb.github.io/Walking-Lego-Character-Animation/).
 
 ## Description
 
